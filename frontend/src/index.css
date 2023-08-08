@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #d9dbe4;
+  --light-color: #8d8d8d;
+  --grey-light-50-color: #9aaabe;
+  --grey-light-100-color: #949494;
+  --grey-light-125-color: #72849a;
+  --grey-light-150-color: #384459;
+  --blue-light-200-color: #334ac3;
+
+  --green-color: #08b976;
+  --white-color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--light-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.base-card {
+  background: var(--primary-color);
+  border-radius: 10px;
+}
+
+.apexcharts-legend.apexcharts-align-center {
+  flex-direction: column;
+  align-items: center;
+}
